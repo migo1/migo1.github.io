@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import {useEffect} from "react";
 import migot from "../assets/images/migot.png";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiGlobe } from "react-icons/fi";
 import { FaAngellist } from "react-icons/fa";
 import { LiaEnvelopeSolid, LiaDownloadSolid } from "react-icons/lia";
 import { motion, useAnimation } from "framer-motion";
@@ -69,14 +69,14 @@ function Hero() {
             >
               <FiGithub />
             </a>
-            {/* <a
-              href="https://tochidev.com"
+            <a
+              href="https://robertmigot.me"
               target="_blank"
               rel="noreferrer"
               className="text-2xl hover:text-newDarkYello"
             >
               <FiGlobe />
-            </a> */}
+            </a>
             <a
               href="https://wellfound.com/u/robertmigot"
               rel="noreferrer"

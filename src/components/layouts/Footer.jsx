@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowUpIcon } from "@heroicons/react/24/outline";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiGlobe } from "react-icons/fi";
 import { FaAngellist } from "react-icons/fa";
 
 function Footer() {
@@ -34,13 +34,13 @@ function Footer() {
           >
             <FiGithub />
           </a>
-          {/* <a
-            href="https://tochidev.com"
+          <a
+            href="https://robertmigot.me"
             target="_blank"
             rel="noreferrer"
             className="text-2xl hover:text-newDarkYello">
             <FiGlobe />
-          </a> */}
+          </a>
           <a
             href="https://wellfound.com/u/robertmigot"
             rel="noreferrer"

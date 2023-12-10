@@ -95,7 +95,7 @@ function Navbar({ dark, data }) {
                 href="#hero" 
                 className="font-bold text-xl text-gray-700 dark:text-white"
                 onClick={() => setMobileMenuOpen(false)}>
-                TochiDev
+                Robert Migot
               </a>
               <button
                 type="button"
