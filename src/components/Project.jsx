@@ -76,7 +76,7 @@ function Project() {
       image: cobben,
       details: "",
       // "Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions",
-      techStack: "Inertia, Vue, Vuex, Laravel",
+      techStack: "Inertia, Vue, Vuex, PHP, Laravel",
       live: "#",
       source: "https://github.com/migo1/cobben-motors",
     },
