@@ -8,15 +8,13 @@ import {
 } from "@heroicons/react/24/outline";
 import { LiaEnvelopeSolid } from "react-icons/lia";
 
-
 import budget from "../assets/images/budget.jpg";
 import pba from "../assets/images/projects/pba.png";
 import cobben from "../assets/images/projects/cobben.png";
 import basketball from "../assets/images/projects/basketball.png";
 import dnote from "../assets/images/projects/dnote.png";
 import wholesale from "../assets/images/projects/wholesale.png";
-
-
+import dc_medical from "../assets/images/projects/dc_medical.png";
 
 function Project() {
   const [projects, setProjects] = useState([
@@ -24,22 +22,24 @@ function Project() {
       id: 1,
       title: "Budget Tracker",
       image: budget,
-      details: "",
+      details: " A budget tracking web application that helps users track their expenses and income. The project can be built using Ruby on Rails, a web application framework written in Ruby.",
       // "Leaderboard is a way to track the performance of teams in a competitive environment. It is displayed as a list, with the teams ranked by their scores. Leaderboards provide a sense of accomplishment, and to create a sense of community. ",
       techStack: "Tailwind Css, Ruby on Rails, Rspec, Postgresql ",
       live: "#",
       source: "https://github.com/migo1/Budget-App",
     },
+
     {
       id: 2,
-      title: "Pro Basketball",
-      image: pba,
-      details: "",
-      // "Portfolio template is designed to be user-friendly and easy to navigate. You can learn more about me and my work by exploring the different sections, including my projects, work experience, and education.",
-      techStack: "Laravel, Tailwind, Vue",
-      live: "https://pbakenya.com/",
-      source: "#",
+      title: "Cobben Motors",
+      image: cobben,
+      details: " A car dealership web application that helps users browse and purchase cars. The project can be built using Vue JS, a JavaScript library for building user interfaces.",
+      // "Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions",
+      techStack: "Inertia, Vue, Vuex, PHP, Laravel",
+      live: "#",
+      source: "https://github.com/migo1/cobben-motors",
     },
+
     {
       id: 3,
       title: "NBA Stats",
@@ -54,7 +54,7 @@ function Project() {
       id: 4,
       title: "Dnote",
       image: dnote,
-      details: "",
+      details: "A logistics automated delivery application that helps users track their deliveries with ease.",
       // "Cryptoniq is a web application that displays up-to-date market cap data for the top 10 cryptocurrencies. It provides an easy overview of the overall crypto market's performance.",
       techStack: "Vue, Tailwind css, Vuex, Laravel",
       live: "https://dnote.co.ke/",
@@ -64,7 +64,7 @@ function Project() {
       id: 5,
       title: "Wholelsale",
       image: wholesale,
-      details: "",
+      details: "A wholesale web application that helps manufacturing firms keep track of thier products from production to the end user/wholesaler.",
       // "weather web application made using HTML5, CSS3, and JavaScript. It's working process is simple. It takes the name of the City as input from the -user and create a HTTP request and send it to Openweathermap.org API to get back the deatils in the form of a JSON Response.",
       techStack: "Vue, Tailwind css, Vuex, Laravel",
       live: "https://wholesale.zazu.cloud/",
@@ -72,13 +72,23 @@ function Project() {
     },
     {
       id: 6,
-      title: "Cobben Motors",
-      image: cobben,
-      details: "",
+      title: "Pro Basketball",
+      image: pba,
+      details: " A web app that keeps track of athletes; payments, progression and performance.",
+      // "Portfolio template is designed to be user-friendly and easy to navigate. You can learn more about me and my work by exploring the different sections, including my projects, work experience, and education.",
+      techStack: "Laravel, Tailwind, Vue",
+      live: "https://pbakenya.com/",
+      source: "#",
+    },
+    {
+      id: 7,
+      title: "DC Medical System",
+      image: dc_medical,
+      details: "A medical healthcare system that helps patients book appointments with doctors.",
       // "Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions",
-      techStack: "Inertia, Vue, Vuex, PHP, Laravel",
-      live: "#",
-      source: "https://github.com/migo1/cobben-motors",
+      techStack: "Nuxt, Bootstrap",
+      live: "https://www.dcmedicalsystem.com",
+      source: "#",
     },
   ]);
 
