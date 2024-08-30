@@ -32,15 +32,15 @@ function Project() {
     },
 
     {
-      id: 2,
+      id: 6,
       title: "Cobben Motors",
       image: cobben,
       details:
         " A car dealership web application that helps users browse and purchase cars. The project can be built using Vue JS, a JavaScript library for building user interfaces.",
       // "Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions",
       techStack: "Inertia, Vue, Vuex, PHP, Laravel",
-      live: "#",
-      source: "https://github.com/migo1/cobben-motors",
+      live: "https://motors.cobben.co.ke/",
+      source: "#",
     },
 
     {
@@ -76,7 +76,7 @@ function Project() {
       source: "#",
     },
     {
-      id: 6,
+      id: 7,
       title: "Pro Basketball",
       image: pba,
       details:
@@ -87,7 +87,7 @@ function Project() {
       source: "#",
     },
     {
-      id: 7,
+      id: 8,
       title: "DC Medical System",
       image: dc_medical,
       details:
@@ -98,7 +98,7 @@ function Project() {
       source: "#",
     },
     {
-      id: 7,
+      id: 2,
       title: "Gist",
       image: gi,
       details: "A gist replica used for sharing elixir code.",
