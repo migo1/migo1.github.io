@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d3ec529.css",
-    "main.js": "/static/js/main.3a525ebd.js",
+    "main.js": "/static/js/main.c5124c42.js",
     "static/media/pba.png": "/static/media/pba.c528895f11ae03bc6b36.png",
     "static/media/dc_medical.png": "/static/media/dc_medical.b0c72c4b48bb0b6eea51.png",
     "static/media/berryshed-screenshot.png": "/static/media/berryshed-screenshot.bdc0442f14f395af0cc4.png",
@@ -15,10 +15,10 @@
     "static/media/dnote.png": "/static/media/dnote.44d59f1b71ebeafa7e60.png",
     "index.html": "/index.html",
     "main.0d3ec529.css.map": "/static/css/main.0d3ec529.css.map",
-    "main.3a525ebd.js.map": "/static/js/main.3a525ebd.js.map"
+    "main.c5124c42.js.map": "/static/js/main.c5124c42.js.map"
   },
   "entrypoints": [
     "static/css/main.0d3ec529.css",
-    "static/js/main.3a525ebd.js"
+    "static/js/main.c5124c42.js"
   ]
 }
