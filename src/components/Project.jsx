@@ -8,38 +8,37 @@ import {
 } from "@heroicons/react/24/outline";
 import { LiaEnvelopeSolid } from "react-icons/lia";
 
-import budget from "../assets/images/budget.jpg";
 import pba from "../assets/images/projects/pba.png";
-import cobben from "../assets/images/projects/cobben.png";
 import basketball from "../assets/images/projects/basketball.png";
 import dnote from "../assets/images/projects/dnote.png";
 import wholesale from "../assets/images/projects/wholesale.png";
 import dc_medical from "../assets/images/projects/dc_medical.png";
 import gi from "../assets/images/projects/gi.png";
+import berryShed from "../assets/images/projects/berryshed-screenshot.png";
+import chammchey from "../assets/images/projects/chammcheyscreensshot.png";
+import soda from "../assets/images/projects/soda.png";
 
 function Project() {
   const [projects, setProjects] = useState([
     {
-      id: 1,
-      title: "Budget Tracker",
-      image: budget,
+      id: 5,
+      title: "Berry Shed",
+      image: berryShed,
       details:
-        " A budget tracking web application that helps users track their expenses and income. The project can be built using Ruby on Rails, a web application framework written in Ruby.",
-      // "Leaderboard is a way to track the performance of teams in a competitive environment. It is displayed as a list, with the teams ranked by their scores. Leaderboards provide a sense of accomplishment, and to create a sense of community. ",
-      techStack: "Tailwind Css, Ruby on Rails, Rspec, Postgresql ",
-      live: "#",
-      source: "https://github.com/migo1/Budget-App",
+        " An animated website for Kenyan farm in Thindigua, Kiambu, dedicated to cultivating fresh, sustainably grown strawberries and other berries, offering products through doorstep delivery and farm pick-up, with plans for farm experiences and community events.",
+      techStack: "Tailwind Css, GSAP, Nuxt, Cloudinary",
+      live: "https://berry-shed.vercel.app/",
+      source: "#",
     },
 
     {
       id: 6,
-      title: "Cobben Motors",
-      image: cobben,
+      title: "CHAMM & CHEY",
+      image: chammchey,
       details:
-        " A car dealership web application that helps users browse and purchase cars. The project can be built using Vue JS, a JavaScript library for building user interfaces.",
-      // "Budget Tracker is a user-friendly mobile app that empowers individuals to take control of their personal finances. By tracking all transactions in one place, users get an always up-to-date overview of spending - enabling better decisions",
-      techStack: "Inertia, Vue, Vuex, PHP, Laravel",
-      live: "https://motors.cobben.co.ke/",
+        " Chamm & Chey is a fitness and wellness service offering personal training, nutrition planning, in-home training, and corporate wellness programs, aiming to make fitness simple, enjoyable, and sustainable for all.",
+      techStack: "Nuxt, Bootstrap, Cloudinary",
+      live: "https://chammchey.vercel.app/",
       source: "#",
     },
 
@@ -54,7 +53,7 @@ function Project() {
       source: "https://github.com/migo1/nba-teams-stats",
     },
     {
-      id: 4,
+      id: 1,
       title: "Dnote",
       image: dnote,
       details:
@@ -65,7 +64,7 @@ function Project() {
       source: "#",
     },
     {
-      id: 5,
+      id: 2,
       title: "Wholelsale",
       image: wholesale,
       details:
@@ -98,13 +97,13 @@ function Project() {
       source: "#",
     },
     {
-      id: 2,
-      title: "Gist",
-      image: gi,
-      details: "A gist replica used for sharing elixir code.",
-      techStack: "Phoenix elixir, Liveview, Tailwind ",
-      live: "#",
-      source: "https://github.com/migo1/G.i",
+      id: 4,
+      title: "3D soda web",
+      image: soda,
+      details: "Learning 3D and cool aninmations on websites",
+      techStack: "Next, threejs, Tailwind, GSAP ",
+      live: "https://jj-gsap.vercel.app/",
+      source: "#",
     },
   ]);
 

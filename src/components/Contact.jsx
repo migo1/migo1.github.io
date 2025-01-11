@@ -112,6 +112,8 @@ function Contact() {
                 <input
                   type="text"
                   name="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="peer block min-h-[auto] w-full rounded-lg border-0 bg-white py-2 px-3 leading-[1.6] outline-none"
                   id="exampleInput90"
                   placeholder="Name"
@@ -121,6 +123,8 @@ function Contact() {
                 <input
                   type="email"
                   name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="peer block min-h-[auto] w-full rounded-lg border-0 bg-white py-2 px-3 leading-[1.6] outline-none"
                   id="exampleInput91"
                   placeholder="Email address"
@@ -131,6 +135,8 @@ function Contact() {
                   className="peer block min-h-[auto] w-full rounded-lg border-0 bg-white py-[0.32rem] px-3 leading-[1.6] outline-none"
                   id="exampleFormControlTextarea1"
                   name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   rows="5"
                   placeholder="Your message"
                 ></textarea>
