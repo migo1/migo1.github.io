@@ -17,6 +17,8 @@ import gi from "../assets/images/projects/gi.png";
 import berryShed from "../assets/images/projects/berryshed-screenshot.png";
 import chammchey from "../assets/images/projects/chammcheyscreensshot.png";
 import soda from "../assets/images/projects/soda.png";
+import fam from "../assets/images/projects/fam.png";
+import lemu from "../assets/images/projects/lemu.png";
 
 function Project() {
   const [projects, setProjects] = useState([
@@ -103,6 +105,26 @@ function Project() {
       details: "Learning 3D and cool aninmations on websites",
       techStack: "Next, threejs, Tailwind, GSAP ",
       live: "https://jj-gsap.vercel.app/",
+      source: "#",
+    },
+    {
+      id: 9,
+      title: "FAM Sports Arena",
+      image: fam,
+      details:
+        "A sports arena website that showcases different services and facilities with ability to host and display tournament results, book facilities etc.",
+      techStack: "Nuxt, Tailwind CSS, GSAP",
+      live: "https://www.famsports.co.ke/",
+      source: "#",
+    },
+    {
+      id: 10,
+      title: "Lemu Perfect services airport concierge",
+      image: lemu,
+      details:
+        "An airport concierge service website that offers premium services to travelers including lounge access, fast track, meet and greet among others.",
+      techStack: "Nuxt, Tailwind CSS",
+      live: "https://www.lemuperfectservices.com/",
       source: "#",
     },
   ]);
